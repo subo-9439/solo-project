@@ -1,11 +1,11 @@
-= 과제 제출용 solo project 문서📃
+= 📃과제 제출용 solo project 문서
 :sectnums:
 :toc: left
 :toclevels: 4
 :toc-title: Table of Contents
 :source-highlighter: prettify
 
-editor : Kim Su Bo🧑
+🧑editor : Kim Su Bo
 
 Copyright ⓒ Hwang Jung Sik <jungsik.hwang@codestates.com>
 
