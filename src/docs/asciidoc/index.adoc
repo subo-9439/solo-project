@@ -1,0 +1,45 @@
+= 과제 제출용 solo project 문서📃
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+editor : Kim Su Bo🧑
+
+Copyright ⓒ Hwang Jung Sik <jungsik.hwang@codestates.com>
+
+v1.0.0, 2022.07.10
+
+***
+== UserController
+
+
+=== 전체 회원 리스트 조회
+
+.http-request
+include::{snippets}/get-users/http-request.adoc[]
+
+.request parameter 설명
+include::{snippets}/get-users/request-parameters.adoc[]
+
+
+.http-response
+include::{snippets}/get-users/http-response.adoc[]
+
+.response-fields 설명
+include::{snippets}/get-users/response-fields.adoc[]
+
+=== 특정 회원 정보 조회
+
+.http-request
+include::{snippets}/get-user/http-request.adoc[]
+
+.request-parameters 설명
+include::{snippets}/get-user/request-parameters.adoc[]
+
+.http-response
+include::{snippets}/get-user/http-response.adoc[]
+
+.response-fields 설명
+include::{snippets}/get-user/response-fields.adoc[]
