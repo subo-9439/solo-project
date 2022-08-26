@@ -31,8 +31,10 @@ public class UserController {
     @GetMapping("/users")
     public ResponseEntity<?> getUsers(@RequestParam int page, @RequestParam int size){
         Page<User> userEntityPage = userService.getUserPage(page,size);
+//        content,pageInfo
         List<User> userEntityList = userEntityPage.getContent();
         List<UserResponseDto> userResponseDtoList = mapper.userToUserResponseDtoByList(userEntityList);
+        //
         return new ResponseEntity<>(new MultiResponseDto<>(userResponseDtoList,userEntityPage), HttpStatus.OK);
     }
 
