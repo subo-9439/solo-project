@@ -160,7 +160,7 @@ public class UserControllerRestDocsTest {
         actions.andExpect(status().isOk())
                 .andExpect(jsonPath("$.data.name").value(userResponseDto.getName()))
                 .andExpect(jsonPath("$.data.password").value(userResponseDto.getPassword()))
-                .andExpect(jsonPath("$.data.sex").value(userResponseDto.getSex()))
+                .andExpect(jsonPath("$.data.sex").value(userResponseDto.getSex().toString()))
                 .andExpect(jsonPath("$.data.company.companyName").value(userResponseDto.getCompany().getCompanyName()))
                 .andDo(document(
                         "get-user",
