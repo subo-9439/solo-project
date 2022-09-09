@@ -30,7 +30,7 @@ public class UserController {
     
     //젠킨스 확인용
      @GetMapping("/hello")
-    public String hello(@RequestParam int page, @RequestParam int size){
+    public String hello(){
         return "hello";
     }
     
