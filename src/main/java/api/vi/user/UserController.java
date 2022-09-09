@@ -27,7 +27,14 @@ public class UserController {
         this.mapper = mapper;
     }
 
-
+    
+    //젠킨스 확인용
+     @GetMapping("/hello")
+    public String hello(@RequestParam int page, @RequestParam int size){
+        return "hello";
+    }
+    
+    
     @GetMapping("/users")
     public ResponseEntity<?> getUsers(@RequestParam int page, @RequestParam int size){
         Page<User> userEntityPage = userService.getUserPage(page,size);
