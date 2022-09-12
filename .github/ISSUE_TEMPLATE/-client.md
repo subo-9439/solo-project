@@ -1,5 +1,5 @@
 ---
-name: "[Cleint] - <제목>"
+name: "[Client] - <제목>"
 about: Describe this issue template's purpose here.
 title: ''
 labels: ''
