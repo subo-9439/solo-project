@@ -1,6 +1,6 @@
 ---
 name: "[Server] - <제목>"
-about: Server 개발 기능에 대한 issue template
+about: Server 기능 개발에 대한 issue template
 title: ''
 labels: ''
 assignees: ''
