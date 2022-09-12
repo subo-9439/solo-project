@@ -5,9 +5,9 @@ labels: [
   "question"
 ]
 body:
-checkbox: Ran ?
-checkbox: Ran ?
-checkbox: If you're seeing permission errors ?
+  - checkbox: Ran ?
+  - checkbox: Ran ?
+  - checkbox: If you're seeing permission errors ?
 
   - type: input
     id: start_date
