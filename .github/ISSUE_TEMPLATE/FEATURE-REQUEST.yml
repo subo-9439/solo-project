@@ -5,6 +5,15 @@ labels: [
   "question"
 ]
 body:
+  - propertyName: responsePayload
+    name: Response Payload
+    description: Log Response Payload
+    type: boolean
+    allowMultiple: false
+    defaultValue: false
+    optional: true
+    sensitive: false
+    
   - type: input
     id: start_date
     attributes:
