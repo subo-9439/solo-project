@@ -1,6 +1,6 @@
 ---
 name: "[Client] - <제목>"
-about: Client 기능 개발 issue template
+about: Client 기능 개발에 대한 issue template
 title: ''
 labels: ''
 assignees: ''
