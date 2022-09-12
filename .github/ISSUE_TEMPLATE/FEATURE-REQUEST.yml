@@ -45,7 +45,7 @@ body:
       placeholder: A few specific words about your feature request.
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: drawbacks
     attributes:
       label: "Drawbacks"
