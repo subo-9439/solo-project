@@ -25,9 +25,9 @@ public class UserService {
         return userRepository.selectAllDescJPQL();
     }
     public Page<User> getUserPage(int page, int size){
-//        return userRepository.selectAllDescJPQL();
+    // return userRepository.selectAllDescJPQL();
         return userRepository.findAll(PageRequest.of(page, size, Sort.by("createdAt").descending()));
-//        return userRepository.findUserPage(pageRequest);
+    //  return userRepository.findUserPage(pageRequest);
     }
     //사이트 내 회원을 특정 조건에 맞게 조회할 수 있습니다. (조건 : 지역, 업종)
     public User getUser(RequestDto requestDto){
